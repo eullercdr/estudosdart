@@ -42,4 +42,18 @@ void main() {
 }
 
 ```
-
+### Switch
+```dart
+ void main() {
+  
+    String linguagem = "Dart";
+    
+    switch(linguagem) {
+      case "Dart":
+        print("Dart");
+      break;
+      default: 
+        print ("Outra");
+    }
+}
+```
